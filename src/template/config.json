@@ -1,0 +1,44 @@
+{
+    "logs": {
+        "colors": {
+            "enabled": true,
+            "main": "",
+            "mainLight": "",
+            "secondary": "",
+            "secondaryLight": "",
+            "success": "",
+            "successLight": "",
+            "failure": "",
+            "failureLight": ""
+        },
+        "level": {
+            "low": false,
+            "events": false,
+            "commands": false,
+            "startup": {
+                "load": true,
+                "cache": true,
+                "connection": true
+            },
+            "errors": true
+        }
+    },
+    "auth": {
+        "db": {
+            "cluster": "",
+            "username": "",
+            "password": "",
+            "customString": null
+        },
+        "bot": {
+            "token": ""
+        }
+    },
+    "startup": {
+        "bail": {
+            "databaseFailure": true,
+            "clientFailure": true,
+            "anyError": false
+        }
+    }
+}
